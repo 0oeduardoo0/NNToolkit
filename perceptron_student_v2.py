@@ -12,7 +12,7 @@ for d in data[:-5]:
 
 print training_data
 
-NN = sperceptron.SimplePerceptron(5)
+NN = perceptron.SimplePerceptron(5)
 
 NN.SetTrainingIterations(10000)
 NN.SetTrainingData(training_data)

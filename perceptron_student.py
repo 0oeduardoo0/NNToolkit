@@ -38,7 +38,7 @@ test_data = [
 	[5, 3]
 ]
 
-NN = sperceptron.SimplePerceptron(2)
+NN = perceptron.SimplePerceptron(2)
 
 NN.SetTrainingIterations(1000)
 NN.SetTrainingData(training_data)
